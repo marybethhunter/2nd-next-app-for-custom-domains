@@ -5,7 +5,7 @@ export const GET = handleAuth({
         authorizationParams: {
             // audience: process.env.AUTH0_AUDIENCE,
             // scope: 'openid profile email read:shows',
-            redirect_uri: 'https://2nd-next-app-for-custom-domains-git-deploy-test-marybethhunter.vercel.app/'
+            redirect_uri: 'https://2nd-next-app-for-custom-domains-git-deploy-test-marybethhunter.vercel.app/api/auth/callback'
         },
         returnTo: '/profile'
     })
